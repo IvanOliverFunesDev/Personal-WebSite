@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import Image from "next/image";
+
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -92,7 +94,7 @@ export default function Projects() {
             className="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer"
           >
             {/* Imagen del proyecto */}
-            <img
+            <Image
               src={project.image}
               alt={project.name}
               className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"

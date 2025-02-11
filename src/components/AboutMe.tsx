@@ -71,7 +71,7 @@ export default function AboutMe() {
             transition={{ duration: 1, delay: 1, ease: "easeOut" }}
             className="text-2xl italic text-[#1ABC9C] font-semibold"
           >
-            "La creatividad es la inteligencia divirtiéndose."
+            &quot;La creatividad es la inteligencia divirtiéndose.&quot;
           </motion.p>
 
           {/* Botón para descargar CV */}

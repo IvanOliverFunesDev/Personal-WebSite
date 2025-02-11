@@ -60,17 +60,22 @@ export default function Home() {
           <p className="text-lg text-gray-300">Bienvenido a mi portafolio.</p>
 
           {/* Botón de descargar CV */}
-          <motion.a
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
-            transition={{ duration: 1, delay: 1.5, ease: "easeOut" }}
-            href="/IvanOliverFunesCv.pdf"
-            download="IvanOliverFunesCv"
-            className="inline-flex items-center px-6 py-3 bg-[#3498DB] text-white rounded-lg hover:bg-[#2980B9] transition"
-          >
-            <FaDownload className="mr-2" />
-            Descargar CV
-          </motion.a>
+          <motion.a 
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
+  transition={{ duration: 1, delay: 1.5, ease: "easeOut" }}
+  href="/IvanOliverFunesCv.pdf"
+  download="IvanOliverFunesCv"
+  className="inline-flex items-center w-[200px] h-[50px] justify-center px-6 py-3 bg-[#3498DB] text-white rounded-lg hover:bg-[#2980B9] transition 
+             absolute bottom-32 mx-auto left-0 right-0 md:static md:mb-0"
+>
+  <FaDownload className="mr-2" />
+  Descargar CV
+</motion.a>
+
+
+
+
         </motion.div>
 
         {/* Imagen con animación creativa */}

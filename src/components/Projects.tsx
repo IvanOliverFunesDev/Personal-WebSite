@@ -99,7 +99,11 @@ export default function Projects() {
               alt={project.name}
               className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
-
+  {/* <img
+              src={project.image}
+              alt={project.name}
+              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+            /> */}
             {/* Overlay con animación desde abajo */}
             <div className="absolute inset-0 bg-gradient-to-t from-cyan-500 to-transparent opacity-0 group-hover:opacity-100 translate-y-full group-hover:translate-y-0 transition-all duration-500 ease-in-out flex flex-col items-center justify-center text-center p-6 rounded-xl">
               <h3 className="text-2xl font-bold text-white mb-2">{project.name}</h3>

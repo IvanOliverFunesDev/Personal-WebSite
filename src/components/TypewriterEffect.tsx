@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const titles = ["Programador", "Amante de la Tecnología", "Desarrollador Web"];
+const titles = ["Hello, I'm Iván Oliver Funes ","I'm a Software Developer", "I'm a Web Developer", "I'm a Tech Enthusiast", "I'm a Tech Geek"];
 
 export default function TypewriterEffect() {
   const [text, setText] = useState("");

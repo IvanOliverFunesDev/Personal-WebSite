@@ -22,6 +22,7 @@ export default function AboutMe() {
   }, []);
 
   return (
+    
     <motion.section
       id="about-me"
       initial={{ opacity: 0, x: -200, filter: "blur(10px)" }}
@@ -60,8 +61,7 @@ export default function AboutMe() {
           className="w-full md:w-1/2 space-y-6"
         >
           <p className="text-4xl text-gray-300">
-            Desarrollador Full Stack con pasión por el diseño y la innovación. Me encanta crear
-            soluciones digitales que impacten positivamente en la vida de las personas.
+          I am a web developer in training with a strong passion for technology and continuous learning. I am currently strengthening my skills in both frontend and backend, with a greater interest in backend development. I am motivated by building efficient and well-structured solutions, and I am looking for opportunities to apply my knowledge in real-world projects, improve my skills, and grow professionally in the industry.
           </p>
 
           {/* Frase destacada con animación */}
@@ -71,7 +71,7 @@ export default function AboutMe() {
             transition={{ duration: 1, delay: 1, ease: "easeOut" }}
             className="text-2xl italic text-[#1ABC9C] font-semibold"
           >
-            &quot;La creatividad es la inteligencia divirtiéndose.&quot;
+            &quot;If you can imagine it, you can program it.&quot;
           </motion.p>
 
           {/* Botón para descargar CV */}
@@ -84,7 +84,7 @@ export default function AboutMe() {
             className="inline-flex items-center px-6 py-3 bg-[#3498DB] text-white rounded-lg hover:bg-[#2980B9] transition"
           >
             <FaDownload className="mr-2" />
-            Descargar CV
+            Download CV
           </motion.a>
         </motion.div>
       </div>

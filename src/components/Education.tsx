@@ -60,10 +60,11 @@ export default function Education() {
             animate={isVisible ? { opacity: 1, y: 0, filter: "blur(0px)" } : { opacity: 0, y: 50, filter: "blur(5px)" }}
             transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
             whileHover={{ scale: 1.05 }}
-            className="absolute left-[-10%] bottom-[-140px] bg-[#252736] text-white p-6 rounded-lg shadow-lg w-96 text-center border-2 border-blue-500 transition-all hover:shadow-blue-500"
+            className="absolute left-[-10%] bottom-[-145px] bg-[#252736] text-white p-6 rounded-lg shadow-lg w-96 text-center border-2 border-blue-500 transition-all hover:shadow-blue-500"
           >
-            <h3 className="text-2xl font-semibold">Bachillerato</h3>
-            <p className="text-lg">2020 - 2022</p>
+            <h3 className="text-2xl font-semibold">High School Diploma</h3>
+            <p className="text-lg">IES Axati, Lora del Rio, Spain (2020 - 2022)</p>
+
           </motion.div>
 
           {/* Grado Superior */}
@@ -72,9 +73,9 @@ export default function Education() {
             animate={isVisible ? { opacity: 1, y: 0, filter: "blur(0px)" } : { opacity: 0, y: -50, filter: "blur(5px)" }}
             transition={{ duration: 1, delay: 0.8, ease: "easeOut" }}
             whileHover={{ scale: 1.05 }}
-            className="absolute right-[-10%] top-[-140px] bg-[#252736] text-white p-6 rounded-lg shadow-lg w-96 text-center border-2 border-purple-500 transition-all hover:shadow-purple-500"
+            className="absolute right-[-10%] top-[-190px] bg-[#252736] text-white p-6 rounded-lg shadow-lg w-96 text-center border-2 border-purple-500 transition-all hover:shadow-purple-500"
           >
-            <h3 className="text-2xl font-semibold">Grado Superior</h3>
+            <h3 className="text-2xl font-semibold">Instituto Tecnológico Superior ADA, Seville, Spain (2023 - Present)</h3>
             <p className="text-lg">2023 - 2025</p>
           </motion.div>
         </div>

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FaReact, FaNodeJs, FaPython, FaDatabase } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaDatabase, FaAngular } from "react-icons/fa";
 import { SiJavascript, SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 export default function Skills() {
@@ -11,7 +11,7 @@ export default function Skills() {
   const skills = [
     { name: "React", icon: <FaReact className="w-12 h-12" />, color: "#61DAFB" },
     { name: "Node.js", icon: <FaNodeJs className="w-12 h-12" />, color: "#68A063" },
-    { name: "Python", icon: <FaPython className="w-12 h-12" />, color: "#3776AB" },
+    { name: "Angular", icon: <FaAngular className="w-12 h-12" />, color: "#3776AB" },
     { name: "JavaScript", icon: <SiJavascript className="w-12 h-12" />, color: "#F7DF1E" },
     { name: "TypeScript", icon: <SiTypescript className="w-12 h-12" />, color: "#3178C6" },
     { name: "Next.js", icon: <SiNextdotjs className="w-12 h-12" />, color: "#000000" },

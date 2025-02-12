@@ -25,40 +25,40 @@ export default function Projects() {
 
   const projects = [
     {
-      name: "Web Design",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      name: "TFG Backend – Node.js & MongoDB",
+      description: "Scalable backend for managing bands, concerts, and subscriptions. Built with Node.js, Express, and MongoDB.",
       image: "/project1.png",
-      link: "#",
+      link: "https://github.com/IvanOliverFunesDev/metal-concerts-backend",
     },
     {
-      name: "Mobile App",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      name: "TFG Frontend – Angular & Bootstrap",
+      description: "Responsive web platform for bands and concerts, built with Angular and Bootstrap.",
       image: "/project2.png",
-      link: "#",
+      link: "https://github.com/IvanOliverFunesDev/metal-concerts-frontend",
     },
     {
-      name: "E-commerce",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-      image: "/project3.jpg",
-      link: "#",
+      name: "Developer Portfolio",
+      description: "Built with Next.js, Tailwind CSS, and Framer Motion to showcase my work and experience.",      
+      image: "/project3.png",
+      link: "https://github.com/IvanOliverFunesDev/Personal-WebSite",
     },
     {
-      name: "Blog Platform",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-      image: "/project4.jpg",
-      link: "#",
+      name: "Upcoming Project",
+      description: "A new web application is in progress. Stay tuned!",
+      image: "/project3.png",
+      link: "#"
     },
     {
-      name: "Portfolio",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-      image: "/project5.jpg",
-      link: "#",
+      name: "Upcoming Project",
+      description: "A new web application is in progress. Stay tuned!",
+      image: "/project3.png",
+      link: "#"
     },
     {
-      name: "Latest Project",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-      image: "/project6.jpg",
-      link: "#",
+      name: "Upcoming Project",
+      description: "A new web application is in progress. Stay tuned!",
+      image: "/project3.png",
+      link: "#"
     },
   ];
 

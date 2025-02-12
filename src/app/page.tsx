@@ -66,6 +66,18 @@ export default function Home() {
         >
           <FaLinkedin className="text-4xl text-gray-300 hover:text-blue-500 transition" />
         </motion.a>
+
+        <motion.a
+           whileHover={{ scale: 1.2, rotateY: 15 }}
+           whileTap={{ scale: 0.9, rotateY: -15 }}
+           transition={{ duration: 0.3 }}
+            href="/IvanOliverFunesCv.pdf"
+            download="IvanOliverFunesCv"
+            className="inline-flex items-center px-2 py-1 bg-[#3498DB] text-white rounded-lg hover:text-blue-500 transition"
+          >
+            <FaDownload className="mr-2" />
+            Download CV
+          </motion.a>
       </motion.div>
 
       <motion.main
@@ -86,23 +98,12 @@ export default function Home() {
           className="flex flex-col space-y-4 text-center md:text-left max-w-[450px] md:mr-16 mt-14 md:mt-0"
         >
           <h1 className="text-4xl md:text-6xl font-bold">
-            Hola, soy <br />
             <TypewriterEffect />
           </h1>
-          <p className="text-lg text-gray-300">Bienvenido a mi portafolio.</p>
+          <p className="text-lg text-gray-300">Welcome to my personal website.</p>
 
           {/* Botón de descargar CV */}
-          <motion.a
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
-            transition={{ duration: 1, delay: 1.5, ease: "easeOut" }}
-            href="/IvanOliverFunesCv.pdf"
-            download="IvanOliverFunesCv"
-            className="inline-flex items-center px-6 py-3 bg-[#3498DB] text-white rounded-lg hover:bg-[#2980B9] transition"
-          >
-            <FaDownload className="mr-2" />
-            Descargar CV
-          </motion.a>
+        
         </motion.div>
 
         {/* Imagen con animación creativa */}
